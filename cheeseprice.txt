@@ -1,0 +1,6 @@
+1 Switzerland 25.69
+2 Taiwan 23.82
+3 Hong_Kong 19.28
+4 Colombia 3.15
+5 Egypt 3.31
+6 Azerbaijan 3.55
