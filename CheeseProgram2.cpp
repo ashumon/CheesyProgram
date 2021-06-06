@@ -64,42 +64,42 @@ int main()
     cin >> cheeseProd;
     numNeed = ceil(cheeseProd / cheeseCont);
     cout << "The number of container(s) needed to hold the cheese is: " << right << setw(9) << setfill(' ') << numNeed << endl;
-    //read in data
+    /read in data
     //process first line of data
     inFile >> iRank >> strCountry >> contCost;
     totCost = numNeed * contCost;
-    cout << "In " << strCountry << " it would cost $" << right << setw(34) << "$" << totCost << endl;
-    outFile << "In " << strCountry << " it would cost $" << right << setw(34) << "$" << totCost << endl;
+    cout << "In " << strCountry << " it would cost " << right << setw(35) << "$" << fixed << setprecision(2) << totCost << endl;
+    outFile << "In " << strCountry << " it would cost " << right << setw(35) << "$" << fixed << setprecision(2) << totCost << endl;
    
     //process second line of data
     inFile >> iRank >> strCountry >> contCost;
     totCost = numNeed * contCost;
-    cout << "In " << strCountry << " it would cost: " << right << setw(39) << "$" << totCost << endl;
-    outFile << "In " << strCountry << " it would cost: " << right << setw(39) << "$" << totCost << endl;
+    cout << "In " << strCountry << " it would cost: " << right << setw(39) << "$" << fixed << setprecision(2) << totCost << endl;
+    outFile << "In " << strCountry << " it would cost: " << right << setw(39) << "$" << fixed << setprecision(2) << totCost << endl;
 
     //process third line of data
     inFile >> iRank >> strCountry >> contCost;
     totCost = numNeed * contCost;
-    cout << "In " << strCountry << " it would cost: " << right << setw(36) << "$" << totCost << endl;
-    outFile << "In " << strCountry << " it would cost: " << right << setw(36) << "$" << totCost << endl;
+    cout << "In " << strCountry << " it would cost: " << right << setw(36) << "$" << fixed << setprecision(2) << totCost << endl;
+    outFile << "In " << strCountry << " it would cost: " << right << setw(36) << "$" << fixed << setprecision(2) << totCost << endl;
 
     //process fourth line of data
     inFile >> iRank >> strCountry >> contCost;
     totCost = numNeed * contCost;
-    cout << "In " << strCountry << " it would cost: " << right << setw(37) << "$" << totCost << endl;
-    outFile << "In " << strCountry << " it would cost: " << right << setw(37) << "$" << totCost << endl;
+    cout << "In " << strCountry << " it would cost: " << right << setw(37) << "$" << fixed << setprecision(2) << totCost << endl;
+    outFile << "In " << strCountry << " it would cost: " << right << setw(37) << "$" << fixed << setprecision(2) << totCost << endl;
 
     //process fifth line of data
     inFile >> iRank >> strCountry >> contCost;
     totCost = numNeed * contCost;
-    cout << "In " << strCountry << " it would cost: " << right << setw(40) << "$" << totCost << endl;
-    outFile << "In " << strCountry << " it would cost: " << right << setw(40) << "$" << totCost << endl;
+    cout << "In " << strCountry << " it would cost: " << right << setw(40) << "$" << fixed << setprecision(2) << totCost << endl;
+    outFile << "In " << strCountry << " it would cost: " << right << setw(40) << "$" << fixed << setprecision(2) << totCost << endl;
 
     //process sixth line of data
     inFile >> iRank >> strCountry >> contCost;
     totCost = numNeed * contCost;
-    cout << "In " << strCountry << " it would cost: " << right << setw(35) << "$" << totCost << endl;
-    outFile << "In " << strCountry << " it would cost: " << right << setw(35) << "$" << totCost << endl;
+    cout << "In " << strCountry << " it would cost: " << right << setw(35) << "$" << fixed << setprecision(2) << totCost << endl;
+    outFile << "In " << strCountry << " it would cost: " << right << setw(35) << "$" << fixed << setprecision(2) << totCost << endl;
 
    
 
