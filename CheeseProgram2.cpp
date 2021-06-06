@@ -42,7 +42,7 @@ int main()
 
     //make the title 
     cout << left << setw(70) << setfill('*') << "*" << endl;
-    cout << "***************** Welcome to my Cheesy Program ***********************" << endl;
+    cout << "***************** Cheese Prices Around the World *********************" << endl;
     cout << left << setw(70) << setfill('*') << "*" << endl;
     cout << endl;
 
